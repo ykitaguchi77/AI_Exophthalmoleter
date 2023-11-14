@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3FC5732B037F5300919564 /* AI_ExophthalmoleterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5722B037F5300919564 /* AI_ExophthalmoleterApp.swift */; };
+		BF3FC5752B037F5300919564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5742B037F5300919564 /* ContentView.swift */; };
+		BF3FC5772B037F5400919564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3FC5762B037F5400919564 /* Assets.xcassets */; };
+		BF3FC57A2B037F5400919564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3FC5792B037F5400919564 /* Preview Assets.xcassets */; };
+		BF3FC5812B037F9A00919564 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5802B037F9A00919564 /* ImagePicker.swift */; };
+		BF3FC5832B037FB700919564 /* RealTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5822B037FB700919564 /* RealTimeView.swift */; };
+		BF3FC5852B037FD800919564 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5842B037FD800919564 /* UploadView.swift */; };
+		BF3FC5872B03800500919564 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5862B03800500919564 /* VideoCapture.swift */; };
+		BF3FC58A2B03805A00919564 /* YOLOv5InferenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5892B03805A00919564 /* YOLOv5InferenceExtension.swift */; };
+		BF3FC58C2B03807100919564 /* ScreenshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC58B2B03807100919564 /* ScreenshotExtension.swift */; };
+		BF3FC58E2B03809E00919564 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC58D2B03809E00919564 /* UIImage+Extension.swift */; };
+		BF3FC5902B0380BD00919564 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC58F2B0380BD00919564 /* UIImageExtension.swift */; };
+		BF3FC5972B03829200919564 /* mobilenetv3_large_100_3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5912B03829000919564 /* mobilenetv3_large_100_3.mlmodel */; };
+		BF3FC5982B03829200919564 /* mobilenetv3_large_100_0.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5922B03829000919564 /* mobilenetv3_large_100_0.mlmodel */; };
+		BF3FC5992B03829200919564 /* mobilenetv3_large_100_2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5932B03829100919564 /* mobilenetv3_large_100_2.mlmodel */; };
+		BF3FC59B2B03829200919564 /* yolov5_periocular.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5952B03829100919564 /* yolov5_periocular.mlmodel */; };
+		BF3FC59C2B03829200919564 /* mobilenetv3_large_100_4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5962B03829200919564 /* mobilenetv3_large_100_4.mlmodel */; };
+		BF3FC59E2B03846B00919564 /* last.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC59D2B03846B00919564 /* last.mlmodel */; };
+		BF3FC5A02B03C98B00919564 /* MobileNetInferenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC59F2B03C98B00919564 /* MobileNetInferenceExtension.swift */; };
+		BF3FC5A22B05D12B00919564 /* MobileNetV3_extended.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5A12B05D12B00919564 /* MobileNetV3_extended.mlmodel */; };
+		BF3FC5AE2B07C31300919564 /* mobilenetv3_large_100_1.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BF3FC5AD2B07C31300919564 /* mobilenetv3_large_100_1.mlpackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF3FC56F2B037F5300919564 /* AI_Exophthalmoleter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AI_Exophthalmoleter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3FC5722B037F5300919564 /* AI_ExophthalmoleterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_ExophthalmoleterApp.swift; sourceTree = "<group>"; };
+		BF3FC5742B037F5300919564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF3FC5762B037F5400919564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3FC5792B037F5400919564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF3FC5802B037F9A00919564 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BF3FC5822B037FB700919564 /* RealTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeView.swift; sourceTree = "<group>"; };
+		BF3FC5842B037FD800919564 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		BF3FC5862B03800500919564 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		BF3FC5892B03805A00919564 /* YOLOv5InferenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOv5InferenceExtension.swift; sourceTree = "<group>"; };
+		BF3FC58B2B03807100919564 /* ScreenshotExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotExtension.swift; sourceTree = "<group>"; };
+		BF3FC58D2B03809E00919564 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BF3FC58F2B0380BD00919564 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		BF3FC5912B03829000919564 /* mobilenetv3_large_100_3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobilenetv3_large_100_3.mlmodel; sourceTree = "<group>"; };
+		BF3FC5922B03829000919564 /* mobilenetv3_large_100_0.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobilenetv3_large_100_0.mlmodel; sourceTree = "<group>"; };
+		BF3FC5932B03829100919564 /* mobilenetv3_large_100_2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobilenetv3_large_100_2.mlmodel; sourceTree = "<group>"; };
+		BF3FC5952B03829100919564 /* yolov5_periocular.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5_periocular.mlmodel; sourceTree = "<group>"; };
+		BF3FC5962B03829200919564 /* mobilenetv3_large_100_4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mobilenetv3_large_100_4.mlmodel; sourceTree = "<group>"; };
+		BF3FC59D2B03846B00919564 /* last.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = last.mlmodel; sourceTree = "<group>"; };
+		BF3FC59F2B03C98B00919564 /* MobileNetInferenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNetInferenceExtension.swift; sourceTree = "<group>"; };
+		BF3FC5A12B05D12B00919564 /* MobileNetV3_extended.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV3_extended.mlmodel; sourceTree = "<group>"; };
+		BF3FC5AD2B07C31300919564 /* mobilenetv3_large_100_1.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mobilenetv3_large_100_1.mlpackage; sourceTree = "<group>"; };
+		BF3FC5AF2B07E60500919564 /* AI-Exophthalmoleter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "AI-Exophthalmoleter-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3FC56C2B037F5300919564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3FC5662B037F5300919564 = {
+			isa = PBXGroup;
+			children = (
+				BF3FC5712B037F5300919564 /* AI_Exophthalmoleter */,
+				BF3FC5702B037F5300919564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3FC5702B037F5300919564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FC56F2B037F5300919564 /* AI_Exophthalmoleter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3FC5712B037F5300919564 /* AI_Exophthalmoleter */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FC5AF2B07E60500919564 /* AI-Exophthalmoleter-Info.plist */,
+				BF3FC5722B037F5300919564 /* AI_ExophthalmoleterApp.swift */,
+				BF3FC5742B037F5300919564 /* ContentView.swift */,
+				BF3FC5802B037F9A00919564 /* ImagePicker.swift */,
+				BF3FC5822B037FB700919564 /* RealTimeView.swift */,
+				BF3FC5842B037FD800919564 /* UploadView.swift */,
+				BF3FC5862B03800500919564 /* VideoCapture.swift */,
+				BF3FC5A12B05D12B00919564 /* MobileNetV3_extended.mlmodel */,
+				BF3FC5922B03829000919564 /* mobilenetv3_large_100_0.mlmodel */,
+				BF3FC5932B03829100919564 /* mobilenetv3_large_100_2.mlmodel */,
+				BF3FC5912B03829000919564 /* mobilenetv3_large_100_3.mlmodel */,
+				BF3FC5AD2B07C31300919564 /* mobilenetv3_large_100_1.mlpackage */,
+				BF3FC5962B03829200919564 /* mobilenetv3_large_100_4.mlmodel */,
+				BF3FC5952B03829100919564 /* yolov5_periocular.mlmodel */,
+				BF3FC59D2B03846B00919564 /* last.mlmodel */,
+				BF3FC5882B03802D00919564 /* Extension */,
+				BF3FC5762B037F5400919564 /* Assets.xcassets */,
+				BF3FC5782B037F5400919564 /* Preview Content */,
+			);
+			path = AI_Exophthalmoleter;
+			sourceTree = "<group>";
+		};
+		BF3FC5782B037F5400919564 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FC5792B037F5400919564 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF3FC5882B03802D00919564 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF3FC5892B03805A00919564 /* YOLOv5InferenceExtension.swift */,
+				BF3FC59F2B03C98B00919564 /* MobileNetInferenceExtension.swift */,
+				BF3FC58B2B03807100919564 /* ScreenshotExtension.swift */,
+				BF3FC58D2B03809E00919564 /* UIImage+Extension.swift */,
+				BF3FC58F2B0380BD00919564 /* UIImageExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3FC56E2B037F5300919564 /* AI_Exophthalmoleter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3FC57D2B037F5400919564 /* Build configuration list for PBXNativeTarget "AI_Exophthalmoleter" */;
+			buildPhases = (
+				BF3FC56B2B037F5300919564 /* Sources */,
+				BF3FC56C2B037F5300919564 /* Frameworks */,
+				BF3FC56D2B037F5300919564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AI_Exophthalmoleter;
+			productName = AI_Exophthalmoleter;
+			productReference = BF3FC56F2B037F5300919564 /* AI_Exophthalmoleter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3FC5672B037F5300919564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BF3FC56E2B037F5300919564 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BF3FC56A2B037F5300919564 /* Build configuration list for PBXProject "AI_Exophthalmoleter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3FC5662B037F5300919564;
+			productRefGroup = BF3FC5702B037F5300919564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3FC56E2B037F5300919564 /* AI_Exophthalmoleter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3FC56D2B037F5300919564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3FC57A2B037F5400919564 /* Preview Assets.xcassets in Resources */,
+				BF3FC5772B037F5400919564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3FC56B2B037F5300919564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3FC5992B03829200919564 /* mobilenetv3_large_100_2.mlmodel in Sources */,
+				BF3FC5812B037F9A00919564 /* ImagePicker.swift in Sources */,
+				BF3FC5852B037FD800919564 /* UploadView.swift in Sources */,
+				BF3FC5752B037F5300919564 /* ContentView.swift in Sources */,
+				BF3FC5902B0380BD00919564 /* UIImageExtension.swift in Sources */,
+				BF3FC5982B03829200919564 /* mobilenetv3_large_100_0.mlmodel in Sources */,
+				BF3FC58E2B03809E00919564 /* UIImage+Extension.swift in Sources */,
+				BF3FC5732B037F5300919564 /* AI_ExophthalmoleterApp.swift in Sources */,
+				BF3FC5AE2B07C31300919564 /* mobilenetv3_large_100_1.mlpackage in Sources */,
+				BF3FC59E2B03846B00919564 /* last.mlmodel in Sources */,
+				BF3FC58A2B03805A00919564 /* YOLOv5InferenceExtension.swift in Sources */,
+				BF3FC5872B03800500919564 /* VideoCapture.swift in Sources */,
+				BF3FC5A22B05D12B00919564 /* MobileNetV3_extended.mlmodel in Sources */,
+				BF3FC5972B03829200919564 /* mobilenetv3_large_100_3.mlmodel in Sources */,
+				BF3FC5832B037FB700919564 /* RealTimeView.swift in Sources */,
+				BF3FC59C2B03829200919564 /* mobilenetv3_large_100_4.mlmodel in Sources */,
+				BF3FC58C2B03807100919564 /* ScreenshotExtension.swift in Sources */,
+				BF3FC59B2B03829200919564 /* yolov5_periocular.mlmodel in Sources */,
+				BF3FC5A02B03C98B00919564 /* MobileNetInferenceExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF3FC57B2B037F5400919564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF3FC57C2B037F5400919564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3FC57E2B037F5400919564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI_Exophthalmoleter/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Exophthalmoleter-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Need to save the images";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to obtain images";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need this for save the images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yk-gankeisei.AI-Exophthalmoleter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3FC57F2B037F5400919564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI_Exophthalmoleter/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI-Exophthalmoleter-Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Need to save the images";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to obtain images";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need this for save the images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yk-gankeisei.AI-Exophthalmoleter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3FC56A2B037F5300919564 /* Build configuration list for PBXProject "AI_Exophthalmoleter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3FC57B2B037F5400919564 /* Debug */,
+				BF3FC57C2B037F5400919564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3FC57D2B037F5400919564 /* Build configuration list for PBXNativeTarget "AI_Exophthalmoleter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3FC57E2B037F5400919564 /* Debug */,
+				BF3FC57F2B037F5400919564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3FC5672B037F5300919564 /* Project object */;
+}
